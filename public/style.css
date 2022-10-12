@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    background-color: rgba(255,255,255, .8);
+    background-image: url("./image/quiz-wallpaper.jpg");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    font-size: 1rem;
+    font-family: 'Inter',sans-serif;
+    min-height: 100vh;
+    
+     
+}
+button{
+    background-color: #4D5B9E;
+    border-radius: 10px;
+    padding: 1em 2em;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-align: center;
+    color: #F5F7FB;
+    font-size: .9rem;
+    color: #fff;
+    border: none;
+    margin: 0 1em;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+h3{
+    color:#293264;
+}
+
+.start-page{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #293264;
+    letter-spacing: 1px;
+    word-spacing: 1px;   
+}
+
+.title{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.quiz-page{
+    text-align: left;
+    margin-top: 2em;
+    max-width: 800px;
+}
+
+.question-title{
+    color: #293264;
+    text-align: left;
+}
+.choices-container{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    
+  
+    text-align: center;
+    color: #293264;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #DBDEF0;
+}
+
+.choice{
+    border: 1px solid #4D5B9E; 
+    border-radius: 8px;
+    padding: .2em .9em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+.chosen-answer{
+    background: #D6DBF5;
+    border: 1px solid #D6DBF5 ;
+}
+.green{
+    background: #94D7A2;
+    border: 1px solid #94D7A2 ;
+    color: rgba(41, 50, 100, 1);
+}
+.red{
+    background: #F8BCBC;
+    border: 1px solid #F8BCBC ;
+    opacity: 0.5;
+}
+.disabled{
+    pointer-events: none;
+}
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-btn{
+    margin-top:2em;
+    padding: 1em 2em;
+    width: 200px;
+    font-family: 'Inter',sans-serif;
+}
+.check-btn{
+    margin: 0 auto;
+    font-family: 'Inter',sans-serif;
+}
+.q-and-a-container{
+    display: flex;
+    justify-content: center;
+}
